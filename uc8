@@ -1,0 +1,29 @@
+public class OOPSBannerApp {
+
+    /**
+     */
+    public static HashMap<Character, String[]> createCharacterMap() {
+
+    }
+
+    /**
+     // Static method to display the banner message using the character map
+     */
+    public static void displayBanner(String message, HashMap<Character, String[]> charMap) {
+
+    }
+
+    /**
+     * Main entry point of the application.
+     *
+     * <p>Initializes the character map, defines a message, and displays it as an ASCII
+     * art banner to the console.
+     *
+     * @param args command-line arguments (not used in this application)
+     */
+    public static void main(String[] args) {
+        HashMap<Character, String[]> charMap = createCharacterMap();
+        String message = "OOPS";
+        displayBanner(message, charMap);
+    }
+}
