@@ -1,0 +1,44 @@
+public class OOPSBannerApp {
+
+    public static void main(String[] args) {
+
+        // Define and populate the array inline using String.join()
+        String[] lines = {
+
+            String.join("   ",
+                    " *  ",
+                    "  *  ",
+                    " *** ",
+                    " *** "),
+
+            String.join("   ",
+                    " *   * ",
+                    " *   * ",
+                    " *     ",
+                    " *     "),
+
+            String.join("   ",
+                    " *   * ",
+                    " *   * ",
+                    " *** ",
+                    " *** "),
+
+            String.join("   ",
+                    " *   * ",
+                    " *   * ",
+                    " *     ",
+                    "     * "),
+
+            String.join("   ",
+                    " *  ",
+                    "  *  ",
+                    " *** ",
+                    " *** ")
+        };
+
+        // Print the banner
+        for (String line : lines) {
+            System.out.println(line);
+        }
+    }
+}
